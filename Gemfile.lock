@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    bdd-rails (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (11.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bdd-rails!
+  bundler
+  rake
+
+BUNDLED WITH
+   1.10.6
