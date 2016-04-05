@@ -19,6 +19,8 @@ module BddRails
         gem 'rspec-its'
         gem 'rspec-rails'
       end
+
+      run 'bundle'
     end
   end
 end
