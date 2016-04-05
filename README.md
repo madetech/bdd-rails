@@ -31,5 +31,5 @@ rails new --skip-test-unit my_bdd_app
 cd my_bdd_app
 echo "gem 'bdd-rails', path: '../../'" >> Gemfile
 bundle
-rails g bdd:rails
+bundle exec rails g bdd_rails:install
 ```
