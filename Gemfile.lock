@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bdd-rails (0.0.1)
+    bdd-rails (0.1.0)
       bundler
       rails
 
