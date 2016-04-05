@@ -1,0 +1,1 @@
+require 'bdd_rails'
