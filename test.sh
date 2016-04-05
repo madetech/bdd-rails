@@ -6,5 +6,4 @@ bundle
 spring stop
 bundle exec rails g bdd_rails:install
 cd ..
-rm -rf $1
 cd ..
