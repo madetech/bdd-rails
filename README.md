@@ -20,3 +20,16 @@ is where you should start!
 ## Codifying Behaviour
 
 Coming soon...
+
+## Creating a new rails app
+
+Run the following commands to get started :)
+
+```
+gem install rails
+rails new --skip-test-unit my_bdd_app
+cd my_bdd_app
+echo "gem 'bdd-rails', path: '../../'" >> Gemfile
+bundle
+rails g bdd:rails
+```
