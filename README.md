@@ -1,5 +1,7 @@
 # BDD Rails: A starter kit
 
+[![Gem Version](https://badge.fury.io/rb/bdd-rails.svg)](https://badge.fury.io/rb/bdd-rails)
+
 Hello there! So you think BDD is a great way to talk about software? Are you
 ready to codify some of those conversations? Do you build apps in rails? If
 so you've come to the right place.
