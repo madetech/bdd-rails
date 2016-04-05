@@ -21,9 +21,14 @@ is where you should start!
 
 ## Codifying Behaviour
 
-Coming soon...
+Coming soon... for now read the following articles to find out about the style
+of tests we're writing:
 
-## Creating a new rails app
+ - http://lukemorton.co.uk/thoughts/2016-01-09-feature-testing-in-2016
+ - https://about.futurelearn.com/blog/how-we-write-readable-feature-tests-with-rspec/
+ - https://www.madetech.com/blog/feature-testing-with-rspec
+
+### Creating a new rails app
 
 Firstly, make sure you have rails installed!
 
