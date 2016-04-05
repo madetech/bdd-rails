@@ -23,13 +23,34 @@ Coming soon...
 
 ## Creating a new rails app
 
-Run the following commands to get started :)
+Firstly, make sure you have rails installed!
 
 ```
 gem install rails
+```
+
+Now let's create a new app!
+
+```
 rails new --skip-test-unit my_bdd_app
 cd my_bdd_app
+```
+
+Next we want to install `bdd-rails`:
+
+```
 echo "gem 'bdd-rails', path: '../../'" >> Gemfile
 bundle
+```
+
+And finally we want to install our BDD setup in your rails app:
+
+```
 bundle exec rails g bdd_rails:install
+```
+
+Now you can run your (empty) test suite:
+
+```
+bundle exec rspec
 ```
