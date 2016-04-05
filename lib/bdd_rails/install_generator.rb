@@ -18,6 +18,7 @@ module BddRails
         gem 'ffaker'
         gem 'rspec-its'
         gem 'rspec-rails'
+        gem 'vcr'
       end
 
       bundle_command :install
