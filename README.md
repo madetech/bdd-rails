@@ -51,10 +51,16 @@ echo "gem 'bdd-rails', path: '../../'" >> Gemfile
 bundle
 ```
 
-And finally we want to install our BDD setup in your rails app:
+We want to install our BDD setup in your rails app:
 
 ```
 bundle exec rails g bdd_rails:install
+```
+
+And setup our DB:
+
+```
+bundle exec rake db:migrate
 ```
 
 Now you can run your (empty) test suite:
