@@ -19,6 +19,7 @@ module BddRails
         gem 'rspec-its'
         gem 'rspec-rails'
         gem 'vcr'
+        gem 'webmock'
       end
 
       bundle_command :install
