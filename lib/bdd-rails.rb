@@ -1,1 +1,1 @@
-require 'bdd_rails'
+require 'bdd_rails/railtie'
