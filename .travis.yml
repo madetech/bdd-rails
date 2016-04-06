@@ -1,8 +1,8 @@
 rvm:
   - 2.1
   - 2.2
-  
-script: sh spec/test.sh
+
+script: sh spec/installing_spec.sh
 
 notifications:
   slack: madetechteam:be3g1qE6so2p2UcqQiOGBRUs
