@@ -2,3 +2,5 @@ rvm:
   - 2.1
   - 2.2
 script: sh test.sh
+notifications:
+  slack: madetechteam:be3g1qE6so2p2UcqQiOGBRUs
