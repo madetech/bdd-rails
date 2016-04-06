@@ -1,3 +1,7 @@
+# Fairly ironic this isn't a BDD feature test isn't it?
+#
+# Life's too short :)
+#
 set -e
 
 rm -rf test_app
