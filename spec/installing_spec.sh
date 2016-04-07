@@ -6,10 +6,9 @@ set -e
 
 
 rm -rf test_app
-
-export BUNDLE_GEMFILE=$PWD/test_app/Gemfile
 bundle exec rails new --skip-test-unit test_app
 cd test_app
+export BUNDLE_GEMFILE=$PWD/Gemfile
 echo "gem 'bdd-rails', path: '../'" >> Gemfile
 bundle
 bundle exec rails g bdd_rails:install
