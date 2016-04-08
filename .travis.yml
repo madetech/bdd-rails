@@ -2,7 +2,7 @@ rvm:
   - 2.1
   - 2.2
 
-script: sh spec/installing_spec.sh
+script: bundle exec rake
 
 notifications:
   slack: madetechteam:be3g1qE6so2p2UcqQiOGBRUs
