@@ -1,6 +1,6 @@
 module BddRails
   class InstallGenerator < ::Rails::Generators::Base
-    source_root File.expand_path('../templates', __FILE__)
+    source_root File.expand_path('../templates/install', __FILE__)
 
     def install_spec_directory
       directory 'spec'
