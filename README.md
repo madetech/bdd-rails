@@ -68,3 +68,15 @@ Now you can run your (empty) test suite:
 ```
 bundle exec rspec
 ```
+
+### How about an example?
+
+To install a full example of feature test and code into your application run
+the following:
+
+```
+bundle exec rails g bdd_rails:example
+bundle exec rspec
+```
+
+Now you have a passing example! Feel free to explore the example code :)
