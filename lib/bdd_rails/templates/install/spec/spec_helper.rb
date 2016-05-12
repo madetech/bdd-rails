@@ -7,6 +7,6 @@
 #
 # For more information head to https://github.com/lukemorton/bdd-rails
 #
-Dir[File.join(File.dirname(__FILE__), 'support/**/*.rb')].each do |support_file|
+Dir[File.join(File.dirname(__FILE__), 'support/**/*.rb')].sort.each do |support_file|
   require support_file
 end
